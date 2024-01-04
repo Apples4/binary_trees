@@ -6,7 +6,7 @@
  * @node: node to study
  * Return: 1 if it is a leaf or 0 if it is not
  */
-int binary_tree_is_leaf(const binary_tree *node)
+int binary_tree_is_leaf(const binary_tree_t *node)
 {
 	return ((!node || node->left || node->right) ? 0 : 1);	
 }
